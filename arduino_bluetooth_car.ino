@@ -129,12 +129,10 @@ void loop()
         }
        else if(data == 'S' ||data == 'D' )        
         { 
-          digitalWrite(4, LOW); 
-          digitalWrite(6, LOW); 
-          digitalWrite(5, LOW); 
-          digitalWrite(7, LOW);
-          analogWrite(3,lspeed);
-          analogWrite(9,rspeed);
+          digitalWrite(InA1, LOW); 
+          digitalWrite(InA2, LOW); 
+          digitalWrite(InB1, LOW); 
+          digitalWrite(InB2, LOW);
         }
         
       else if(data == 'q' || data == 9)        
